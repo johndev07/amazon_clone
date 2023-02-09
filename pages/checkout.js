@@ -41,7 +41,7 @@ const Checkout = () => {
               <h2 className="whitespace-nowrap ">
                 SubTotal ({cartItems.length}:items)
                 <span className="font-bold">
-                  <ReactCurrencyFormatter currency="INR" quantity={cartTotal} />
+                  {cartTotal}
                 </span>
               </h2>
               <button
